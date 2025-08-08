@@ -1,0 +1,20 @@
+.focus-visible {
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  border-radius: 4px;
+}
+[tabindex]:focus {
+  outline: 3px solid #007bff;
+  background-color: #d0e8ff;
+}
+.pressed {
+  background-color: #0b74de;
+  color: white;
+}
+
+.accessible:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
